@@ -14,18 +14,20 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('home', [
+        "title" => "Home"
+    ]);
 });
 Route::get('/about', function () {
-    return view(
-        'about',
-        [
-            "nama" => "Darik Aflah Aufah Arisianto",
-            "email" => "3103120065@student.smktelkom-pwt.sch.id",
-            "gambar" => "darik.png"
-        ]
-    );
+    return view('about', [
+        "title" => "About",
+        "nama" => "Darik Aflah Aufah Arisianto",
+        "email" => "3103120065@student.smktelkom-pwt.sch.id",
+        "gambar" => "darik.png"
+    ]);
 });
 Route::get('/gallery', function () {
-    return view('gallery');
+    return view('gallery', [
+        "title" => "Gallery"
+    ]);
 });
