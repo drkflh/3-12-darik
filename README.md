@@ -7,6 +7,7 @@
 
 - Modul 1 - Done
 - Modul 2 - Done
+- Modul 3 - Done
 - ....
 ## :man: Task Created
 
