@@ -18,6 +18,6 @@
         <label for="inputnote">Pesan</label>
         <textarea class="form-control" name="pesan" id="inputnote" placeholder="Masukan Pesan" style="height: 100px"></textarea>
     </div>
-    <button type="submit" class="btn btn-primary">Kirim</button>
+    <button type="submit" class="btn btn-danger">Kirim</button>
 </form>
     @endsection
