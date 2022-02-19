@@ -33,7 +33,7 @@ Route::get('/gallery', function () {
     ]);
 });
 Route::resource('/contact', ContactController::class);
-
+Auth::routes();
 Route::group(['middleware' => ['auth']], function () {
-    route::get('/home', [App\Http\Controller\HomeController::class, 'index'])->name('home'); 
+    route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 });

@@ -10,6 +10,7 @@
 - Modul 3 - Done
 - Modul 4 - Done
 - Modul 5 - Done
+- Modul 6 - Done
 ## :man: Task Created
 
 - **Darik Aflah Aufah Arisianto**
