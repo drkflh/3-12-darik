@@ -30,8 +30,8 @@
                         <i class="fas fa-chart-bar"></i>Data Contact Us</a>
                 </li>
                 <li>
-                    <a href="table.html">
-                        <i class="fas fa-table"></i>Tables</a>
+                    <a href="{{ route('Image.index') }}">
+                        <i class="fas fa-table"></i>Data Gallery</a>
                 </li>
                 <li>
                     <a href="form.html">

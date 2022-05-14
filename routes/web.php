@@ -24,7 +24,9 @@ Route::get('/about', function () {
         "title" => "About",
         "nama" => "Darik Aflah Aufah Arisianto",
         "email" => "3103120065@student.smktelkom-pwt.sch.id",
-        "gambar" => "darik.png"
+        "umur" => "16 Tahun",
+        "nohp" => "+62 821-3695-1197",
+        "gambar" => "darikk.png"
     ]);
 });
 Route::get('/gallery', function () {
@@ -36,6 +38,7 @@ Route::get('/gallery', function () {
 route::get('contact/create', [ContactController::class, 'create'])->name('contact.create');
 route::post('contact/store', [ContactController::class, 'store'])->name('contact.store');
 
+Route::resource('Image', PhotoController::class);
 
 Auth::routes();
 Route::group(['middleware' => ['auth']], function () {
